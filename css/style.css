@@ -16,7 +16,7 @@ body{
     
     padding-top: 25px;
     text-align: center;
-    margin: 15% 0 0;
+    margin: 25% 0 0;
     
 }
 
@@ -101,8 +101,8 @@ animation-iteration-count: infinite;
     background: radial-gradient(rgba(204, 202, 54, 0.479),rgba(19, 24, 37, 0.986),rgba(19, 24, 37, 0.986),rgb(19, 24, 37));
     background-repeat: no-repeat;
     text-align: center;
-    margin: 25% auto;
-    padding-top: 20%;
+    margin: 15% auto;
+    padding-top: 15%;
 
 }
 
