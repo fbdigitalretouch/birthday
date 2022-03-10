@@ -32,7 +32,7 @@ var birthdaySong = new Audio("hb128.mp3")
 $("#volumeOn").click(function(){
     birthdaySong.play()
     birthdaySong.onended = function(){
-        alert("Auguri Dario :D");
+        alert("Auguri Dario 🎉🎊🥂🍰🍾");
         $("#volumeOff").addClass("volumeOff");
         $("#volumeOn").removeClass("volumeOn");
     }
