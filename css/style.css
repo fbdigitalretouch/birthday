@@ -30,6 +30,12 @@ animation-duration: 8s;
 animation-iteration-count: infinite;
 }
 
+@media screen and (min-width:600px) {
+    #leftCat{
+        top:80px
+    }
+}
+
 @keyframes nyancat {
     from{
         left: -100px;
@@ -49,6 +55,12 @@ animation-iteration-count: infinite;
     animation-delay: 1s;
     animation-duration: 8s;
     animation-iteration-count: infinite;
+    }
+
+    @media screen and (min-width:600px) {
+        #rightCat{
+            top:-150px
+        }
     }
     
     @keyframes nyancat2 {
@@ -94,6 +106,15 @@ animation-iteration-count: infinite;
 
 }
 
+@media screen and (min-width:600px) {
+    .birthcake{
+        margin: 3% auto;
+        padding-top: 7%;
+        max-width: 600px;
+    }
+    
+}
+
 .cake{
     margin-top: 100px;
 }
@@ -105,6 +126,13 @@ animation-iteration-count: infinite;
     font-size: 35px;
     padding-bottom:50px;
     z-index: 2 !important;
+}
+
+@media screen and (min-width:600px) {
+    .volumeControl{
+        margin: 5% auto;
+    }
+    
 }
 
 .volumeOn{
