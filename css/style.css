@@ -1,0 +1,117 @@
+
+html{
+    overflow: hidden;
+}
+
+body{
+    width: 100%;
+    margin: 0;
+    background-color: rgb(19, 24, 37);
+    overflow: hidden;
+    
+   
+}
+
+.catContainer{
+    
+    padding-top: 25px;
+    text-align: center;
+    margin: 15% 0 0;
+    
+}
+
+#leftCat{
+position: absolute;
+overflow: none;
+left:-100px;
+top:10px;
+animation-name: nyancat;
+animation-duration: 8s;
+animation-iteration-count: infinite;
+}
+
+@keyframes nyancat {
+    from{
+        left: -100px;
+    }
+    to{
+        left:2000px;
+    }
+}
+
+
+#rightCat{
+    position: absolute;
+    right:-100px;
+    top: -100px;
+    transform: scaleX(-1);
+    animation-name: nyancat2;
+    animation-delay: 1s;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    }
+    
+    @keyframes nyancat2 {
+        from{
+            right: -100px;
+        }
+        to{
+            right:2000px;
+        }
+    }
+
+.typoContainer{
+    text-align: center;
+    font-size: 3.5vw;
+    font-family: 'Press Start 2P', cursive;
+    color: white; 
+    animation: colorText  1s infinite;
+}
+
+@keyframes colorText {
+
+    5%{ color: greenyellow;}
+    15%{ color: yellow;}
+    25%{ color: orange;}
+    35%{ color: red;}
+    45%{ color:purple;}
+    55%{ color:blue}
+    65%{color:darkblue}
+    75%{ color: darkcyan;}
+    85%{ color: darkgreen;}
+    95%{ color: green;}
+
+
+
+}
+
+.birthcake{
+    background: radial-gradient(rgba(204, 202, 54, 0.479),rgba(19, 24, 37, 0.986),rgba(19, 24, 37, 0.986),rgb(19, 24, 37));
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 25% auto;
+    padding-top: 20%;
+
+}
+
+.cake{
+    margin-top: 100px;
+}
+
+.volumeControl{
+    text-align: center;
+    margin: 25% auto;
+    color: white;
+    font-size: 35px;
+    padding-bottom:50px;
+    z-index: 2 !important;
+}
+
+.volumeOn{
+    display: none;
+}
+
+.volumeOff{
+    display: none;
+}
+
